@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39f8eed085.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Mobo Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="">
+                <div class="logo">
+                    <p id="first">Mobo</p>
+                    <p id="second">store</p>
+                </div>
+            </a>
+
+
+
+            <div class="content">
+                <ul>
+                    <li><a href="" class="Active">Home</a></li>
+                    <li class="Mobile">
+                        <p>Mobile</p>
+                        <div class="sub-Mobile">
+                            <ul>
+                                <li><a href="">Realme</a></li>
+                                <li><a href="">Mi</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Apple</a></li>
+                                <li><a href="">IQOO</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="accessories">
+                        <p>Mobile Accessories</p>
+                        <div class="sub-access">
+                            <ul>
+                                <li><a href="">Cover</a></li>
+                                <li><a href="">Charger</a></li>
+                                <li><a href="">Eraphones</a></li>
+                                <li><a href="">Usb Cable</a></li>
+                                <li><a href="">Tempard Glass</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="login">
+                <div class="menu-button" onclick="">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <form action=""
+                    style=" display:flex; justify-content: center; align-items: center; background-color: white; border-radius: 20px;">
+                    <input type="text" style="width: 100%; border: none; font-size: 1.1em; " placeholder="Search item">
+                    <button style="background-color: white;"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" class="search">
+                </form>
+                <!-- <button>
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                </button>   -->
+                <a href=""><i class="fa-solid fa-circle-user"></i>
+                    <div class="profile">
+                        <ul>
+                            <span></span>
+                            <li>My Profile</li>
+                            <li>Account</li>
+                            <li>log out</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="./cart.html" style="font-size: 1.7em;"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+    <main>
+
+        <!--  image slider -->
+        <div class="slideshow-container">
+            <div class="slider">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+
+                <div class="mySlides fade">
+                    <img  class="desk" src="./image/slider Mimage/1.webp" alt="">
+                    <img  class="mobile" src="./image/slider Mimage/4.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img class="desk" src="./image/slider Mimage/2.webp" alt="">
+                    <img  class="mobile" src="./image/slider Mimage/4.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img  class="desk" src="./image/slider Mimage/3.webp" alt="">
+                    <img  class="mobile" src="./image/slider Mimage/6.jpg" alt="">
+                </div>
+
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="btns">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        
+        
+        <!-- top brand  -->
+        <div class="top-brand">
+            <h2>Top Brands</h2>
+            <div class="brand">
+                <li><a href=""><img src="./image/Oneplus.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Oppo.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Realme.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Redmi.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Samsung.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Nokia.webp" alt=""></a></li>
+                <li><a href=""><img src="./image/Apple.webp" alt=""></a></li>
+            </div>
+        </div>
+
+
+
+
+
+       <!-- oneplus section -->
+        <div class="oneplus">
+            <div class="oneplus-phone">
+                <div class="logo">
+                    <img src="./image/Oneplus.webp" alt="">
+                    <h4>Flagship Phone</h4>
+                    <button style="display: none;"><span id="arrow"></span><span>View All</span></button>
+                </div>
+                <div class="phone">
+                    <div class="item 10pro">
+                        <a href="./item.html"><img src="./image/oneplus/10 pro.webp" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">OnePlus 10 Pro 5G (Emerald Forest, 12GB RAM, 256GB Storage)</h4>
+                            <p><span>₹</span>71,999</p>
+                        </div>
+                    </div>
+                    <div class="item 10">
+                        <a href="./item.html"><img src="./image/oneplus/10R.webp" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>38,999</p>
+                        </div>
+                    </div>
+                    <div class="item 10pro">
+                        <a href="./item.html"><img src="./image/oneplus/61LvUvbZGlL._SX679_.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">OnePlus 9 Pro 5G (Morning Mist, 8GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>49,999</p>
+                        </div>
+                    </div>
+                    <div class="item 10pro">
+                        <a href="./item.html"><img src="./image/oneplus/9.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">OnePlus 9 5G (Arctic Sky,12GB RAM, 256GB Storage)</h4>
+                            <p><span>₹</span>42,999</p>
+                        </div>
+                    </div>
+                </div>
+                <button><span id="arrow">></span><span>View All</span></button>
+            </div>
+        </div>
+
+        
+        <!-- apple section -->
+        <div class="oneplus">
+            <div class="oneplus-phone">
+                <div class="logo">
+                    <img src="./image/Apple.webp" alt="">
+                    <h4>Flagship Phone</h4>
+                </div>
+                <div class="phone">
+                    <div class="item 10pro">
+                        <a href="./item.html"><img src="./image/apple/13pro max.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">Apple iPhone 13 Pro Max (128GB) - Sierra Blue</h4>
+                            <p><span>₹</span>1,26,990</p>
+                        </div>
+                    </div>
+                    <div class="item 10pro">
+                        <a href=""><img src="./image/apple/13.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">Apple iPhone 13 (128GB) - Midnight</h4>
+                            <p><span>₹</span>70,990</p>
+                        </div>
+                    </div>
+                    <div class="item 10pro">
+                        <a href=""><img src="./image/apple/12pro max.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">Apple iPhone 12 Pro Max (512GB) - Silver</h4>
+                            <p><span>₹</span>1,49,990</p>
+                        </div>
+                    </div>
+                    <div class="item 10pro">
+                        <a href="./item.html"><img src="./image/apple/12.jpg" alt=""></a>
+                        <div class="info">
+                            <h4 class="name">Apple iPhone 12 (128GB)-White</h4>
+                            <p><span>₹</span>60,900</p>
+                        </div>
+                    </div>
+                </div>
+                <button><span id="arrow">></span><span>View All</span></button>
+            </div>
+        </div>
+
+        <div class="new_launch">
+            <h2>New Launch</h2>
+            <div class="launch">
+                <div class="new phone1">
+                    <a href=""><img src="./image/new launch/mxw_2048,f_auto.avif" alt=""></a>
+                </div>
+                <div class="new phone1">
+                    <a href=""><img src="./image/new launch/mxw_2048,f_auto (1).avif" alt=""></a>
+                </div>
+                <div class="new phone1">
+                    <a href=""><img src="./image/new launch/mxw_2048,f_auto (2).avif" alt=""></a>
+                </div>
+                <div class="new phone1">
+                    <a href=""><img src="./image/new launch/mxw_2048,f_auto (3).avif" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="budget">
+            <h2>Budget Categories</h2>
+            <div class="budget-range">
+                <a href="">
+                    <div class="budget-cat cat1">
+                        <span>Below</span>
+                        <span>₹10,000</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="budget-cat">
+                        <span>₹10,000</span>
+                        <span>TO</span>
+                        <span>₹15,000</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="budget-cat">
+                        <span>₹15,000</span>
+                        <span>TO</span>
+                        <span>₹20,000</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="budget-cat">
+                        <span>₹20,000</span>
+                        <span>TO</span>
+                        <span>₹30,000</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- <div class="value_for_money"> -->
+            <div class="phones">
+                  <h2 style="text-align: center;">Affordable Phones</h2>
+                  <h2>5G Phones</h2>
+                  <div class="five_g_phone">
+                        <div class="affphone">
+                            <div class="img" ><a href=""><img src="./image/Affordable/iqoo_z6_5g.jpg" alt=""></a></div>
+                            <div class="info">
+                                <a href="">
+                                    <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                                    <p><span>₹</span>1,26,990</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="affphone">
+                            <div class="img"><a href=""><img src="./image/Affordable/OnePlus_nord_CE_lite_5g.webp" alt=""></a></div>
+                            <div class="info">
+                                <a href="">
+                                    <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                                    <p><span>₹</span>1,26,990</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="affphone">
+                            <div class="img"><a href=""><img src="./image/Affordable/poco_x4por_5g.webp" alt=""></a></div>
+                            <div class="info">
+                                <a href="">
+                                    <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                                    <p><span>₹</span>1,26,990</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="affphone">
+                            <div class="img"><a href=""><img src="./image/Affordable/poco_m3_pro_5g.jpg" alt=""></a></div>
+                            <div class="info">
+                                <a href="">
+                                    <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                                    <p><span>₹</span>1,26,990</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="affphone">
+                            <div class="img"><a href=""><img src="./image/Affordable/poco_m4pro_5g.webp" alt=""></a></div>
+                            <div class="info">
+                                <a href="">
+                                    <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                                    <p><span>₹</span>1,26,990</p>
+                                </a>
+                            </div>
+                        </div>
+                        <button><span id="arrow"></span><span>View All</span></button>
+
+                  </div>
+
+
+                  <h2>4G phone</h2>
+                  <div class="four_g_phone">
+                    <div class="itemfourg">
+                        <div><a href=""><img src="./image/Affordable/4g/infinix note11s.jpg" alt=""></a></div>
+                        <div class="info">
+                            <a href="">
+                            <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>1,26,990</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemfourg">
+                        <div><a href=""><img src="./image/Affordable/4g/Motorala g52.jpg" alt=""></a></div>
+                        <div class="info">
+                            <a href="">
+                            <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>1,26,990</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemfourg">
+                        <div><a href=""><img src="./image/Affordable/4g/Motorola G40 fusion.jpg" alt=""></a></div>
+                        <div class="info">
+                            <a href="">
+                            <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>1,26,990</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemfourg">
+                        <div><a href=""><img src="./image/Affordable/4g/poco m2.jpg" alt=""></a></div>
+                        <div class="info">
+                            <a href="">
+                            <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>1,26,990</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemfourg">
+                        <div><a href=""><img src="./image/Affordable/4g/poco x3 pro.webp" alt=""></a></div>
+                        <div class="info">
+                            <a href="">
+                            <h4  class="name">OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)</h4>
+                            <p><span>₹</span>1,26,990</p>
+                            </a>
+                        </div>
+                    </div>
+                    <button><span id="arrow"></span><span>View All</span></button>
+                  </div>
+            </div>
+        <!-- </div> -->
+
+
+        <div class="service">
+            <div class="icon Fast_delivery">
+                <img src="./image/service/delivery-truck.png" alt="">
+                <span>Fast Delivery</span>
+            </div>
+            <div class="icon cash_on_delive">
+                <img src="./image/service/cash-on-delivery.png" alt="">
+                <span>Cash On Delivery</span>
+            </div>
+            <div class="icon No_cost_EMI">
+                <img src="./image/service/loan.png" alt="">
+                <span>No cost EMI</span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        
+        <div class="contact_container">
+                    <a href="">
+                        <div class="footer_logo">
+                            <p id="footer_first">Mobo</p>
+                            <p id="footer_second">store</p>
+                        </div>
+                    </a>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button>Submit</button>
+        </div>
+        <div class="Croma-Support">
+            <h2>Mobo store support</h2>
+            <ul>
+                <li><a href="">Help and Support</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Buying Guide</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>  
+        </div>
+        <div class="customer_car">
+            <h2>Customer Care</h2>
+            <div>
+                <span>Phone:  8792097283</span>
+                <span>, 9887934024</span>
+            </div>
+
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
